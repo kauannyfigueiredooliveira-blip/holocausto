@@ -1,8 +1,9 @@
 body{
-    color:rgb(172, 6, 6);
-    background-color: rgb(7, 59, 172);
+    color:pink;
+    background-color: plum;
     margin:0px;
     font-family: "Playwrite USA Modern",sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
@@ -13,7 +14,7 @@ header{
 }
 
 section{
-    background: rgb(3, 65, 3);
+    background: purple;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -31,7 +32,7 @@ section{
     img{
         height: 200px;
     } 
-    .categoria-video{ 
+    .categoria-videos{ 
         display: flex; 
         overflow-x: auto;
          gap: 10px
@@ -39,10 +40,20 @@ section{
          .categoria{
              padding-left: 20px;
               padding-rigth: 20px;
+              margin-top: 50px;
              }
              .categoria-video img {
                 opacity: 0,5;
                 height: 200px;
              }
+             .categoria-videos img-hover{
+                opacity: 1,0;
+                border: 1px solid paleturquoise;
+             }
+             .categoria h2{
+                color: blue;
+             }
+    
+             
 
                                     
